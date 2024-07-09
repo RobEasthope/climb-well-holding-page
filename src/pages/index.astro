@@ -4,11 +4,30 @@ const currentYear = new Date().getFullYear();
 
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <!-- Metadata -->
+    <title>Climb Well</title>
+    <meta property="og:title" content="Climb Well" />
+    <meta property="twitter:title" content="Climb Well" />
+    <meta
+      name="description"
+      property="og:description"
+      content={`Coming soon in ${currentYear}`}
+    />
+    <meta
+      property="twitter:description"
+      content={`Coming soon in ${currentYear}`}
+    />
+    <meta property="og:site_name" content="Climb Well" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Browser settings -->
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
   </head>
   <body>
     <h1 class="text-3xl font-bold underline">Hello world!</h1>

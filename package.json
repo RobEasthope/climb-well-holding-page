@@ -24,6 +24,7 @@
     "@thoughtbot/eslint-config": "^1.0.2",
     "eslint": "^9.6.0",
     "eslint-plugin-astro": "^1.2.3",
+    "eslint-plugin-tailwindcss": "^3.17.4",
     "prettier": "^3.3.2",
     "prettier-plugin-astro": "^0.14.0"
   }
